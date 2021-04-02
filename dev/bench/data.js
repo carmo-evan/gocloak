@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1607547916715,
-  "repoUrl": "https://github.com/Nerzal/gocloak",
+  "lastUpdate": 1617362101810,
+  "repoUrl": "https://github.com/carmo-evan/gocloak",
   "entries": {
     "Benchmark": [
       {
@@ -2733,6 +2733,54 @@ window.BENCHMARK_DATA = {
             "value": 54861618,
             "unit": "ns/op\t   59672 B/op\t     218 allocs/op",
             "extra": "20 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "carmo.evan@gmail.com",
+            "name": "Evan do Carmo",
+            "username": "carmo-evan"
+          },
+          "committer": {
+            "email": "carmo.evan@gmail.com",
+            "name": "Evan do Carmo",
+            "username": "carmo-evan"
+          },
+          "distinct": true,
+          "id": "2d2dca3042411f51849481625ad76d6e1f8cdb1d",
+          "message": "adding tests",
+          "timestamp": "2021-04-02T07:12:32-04:00",
+          "tree_id": "ca0df8d61e8324496b5d27dd362f0e624512ae0a",
+          "url": "https://github.com/carmo-evan/gocloak/commit/2d2dca3042411f51849481625ad76d6e1f8cdb1d"
+        },
+        "date": 1617362100757,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkLogin",
+            "value": 70128917,
+            "unit": "ns/op\t   51274 B/op\t     216 allocs/op",
+            "extra": "15 times"
+          },
+          {
+            "name": "BenchmarkLogin",
+            "value": 71305463,
+            "unit": "ns/op\t   71002 B/op\t     219 allocs/op",
+            "extra": "16 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkLoginParallel",
+            "value": 76293213,
+            "unit": "ns/op\t   67101 B/op\t     216 allocs/op",
+            "extra": "15 times"
+          },
+          {
+            "name": "BenchmarkLoginParallel",
+            "value": 42907627,
+            "unit": "ns/op\t   59626 B/op\t     217 allocs/op",
+            "extra": "25 times\n2 procs"
           }
         ]
       }
